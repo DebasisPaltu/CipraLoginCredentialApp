@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFEFF"
+    tools:context=".activity.HomeActivity">
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:textColor="@color/black"
+        android:text="Personalized impact of Lifestyle Factors"/>
+
+    <LinearLayout
+        android:layout_below="@+id/head"
+        android:layout_width="match_parent"
+        android:background="#ADCEF7"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@+id/viewend"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/alfa_slab_one"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="Recommendation"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:layout_marginStart="10dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:text="our analysis shows your BP is related  to your daily number of steps cont. Regular physcal activity helps to ower blood plessure"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:src="@drawable/firstpageeee"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/viewend"
+        android:layout_width="130dp"
+        android:layout_height="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/editextbackground2"
+        android:elevation="10dp"
+        android:layout_marginBottom="10dp"/>
+
+
+</RelativeLayout>
